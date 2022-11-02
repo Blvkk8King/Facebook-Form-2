@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Klavika";
+    src: url("./assets/klavika-bold.otf");
+}
+
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+
+h1 {
+    font-family: "Klavika";
+    color:#1877f2;
+    font-size: 6em;
+    text-align: center;
+    margin-top:10%;
+}
+
+
+@media screen and (max-width: 1200px) {
+    body {
+        grid-template-columns: 20% 60% 20%;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    body {
+        grid-template-columns: 10% 80% 10%;
+    }
+}
+
+form {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: white;
+    margin-left: 240px;
+    border-radius: 15px;
+    padding:50px;
+    box-shadow: 0px 0px 40px 00px rgba(75,75,75, 0.3);
+    color: #444;
+}
+
+fieldset {
+    border:none;
+    text-align: center;
+}
+
+h2{
+    font-size:30px;
+    color:#000;
+    margin:10px;
+}
+
+p2{
+    color:#000;
+    margin:10px;
+}
+
+hr{
+    width: 100%;
+    margin-top:30px;
+}
+
+.typebox1, .typebox2{
+    width: 240px;
+    height: 30px;
+    /* flex-direction: row; */
+}
+
+.typebox3, .typebox4{
+    width: 550px;
+    height: 30px;
+}
+
+.typebox1, .typebox2, .typebox3, .typebox4{
+    margin: 10px;
+}
+
+.radio{
+    border: 1px solid #000;
+    display: inline;
+    margin: 50px;
+    /* margin-bottom:50px; */
+    padding: 6px;
+}
+
+/* .typebox{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 15px;
+} */
+
+#month, #day, #year{
+    width: 150px;
+    height: 30px;
+    flex-direction: row;
+    margin:20px;
+    margin-left: 12px;
+}
+
+
+label{
+    font-size:12px;
+    text-align: left;
+}
+
+p{
+    font-size:14px;
+    text-align: left;
+}
+
+.signup{
+    width: 150px;
+    height: 30px;
+    background-color: green;
+    border: 0px solid green;
+    color:#fff;
+    margin: 25px;
+    /* margin-left: 200px; */
+    padding-right: 5px;
+    border-radius: 20px;
+}
+
+.signup:hover{
+    background-color: lightgreen;
+}
+
+h3{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
